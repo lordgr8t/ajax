@@ -1,0 +1,22 @@
+*{
+	box-sizing: border-box;
+	font-family: Roboto;
+}
+
+.btn{
+	display: block;
+	background: #000;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	color: #fff;
+	padding-top: 20px;
+	font-size: 40px;
+}
+.btn:active{
+	background: blue;
+	transition: 0.6s;
+}
+.btn_pressed{
+	background: blue;
+}
